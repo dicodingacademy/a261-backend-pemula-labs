@@ -1,0 +1,5 @@
+Di hari minggu saya akan:
+1. Berolahraga pagi.
+2. Membersihkan halaman rumah.
+3. Menonton film.
+4. Membaca buku Laskar Pelangi.
