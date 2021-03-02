@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "lint":"eslint ./"
+    "start": "nodemon ./src/server.js",
+    "lint":"eslint ./src"
   },
   "keywords": [],
   "author": "",
