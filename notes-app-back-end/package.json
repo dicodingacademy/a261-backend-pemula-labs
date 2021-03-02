@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./src/server.js",
-    "lint":"eslint ./src"
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0"
   }
 }
