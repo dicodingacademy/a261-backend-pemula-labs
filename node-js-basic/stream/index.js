@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { resolve } from 'path';
 
-const readableStream = fs.createReadStream(resolve('data.txt'), {
+const readableStream = fs.createReadStream(resolve('input.txt'), {
   highWaterMark: 15,
 });
 
