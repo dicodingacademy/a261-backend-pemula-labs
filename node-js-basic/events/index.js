@@ -1,4 +1,4 @@
-const { EventEmitter } = require('events');
+import { EventEmitter } from 'events';  
 
 const birthdayEventListener = (name) => {
   console.log(`Happy birthday ${name}!`);
