@@ -1,5 +1,5 @@
-const Tiger = require('./Tiger');
-const Wolf = require('./Wolf');
+import Tiger from './Tiger.js';
+import Wolf from './Wolf.js';
 
 const fighting = (tiger, wolf) => {
   if(tiger.strength > wolf.strength) {
