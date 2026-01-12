@@ -8,4 +8,4 @@ class Wolf {
   }
 }
 
-module.exports = Wolf;
+export default Wolf;

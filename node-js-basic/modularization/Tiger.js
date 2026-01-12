@@ -8,4 +8,4 @@ class Tiger {
   }
 }
 
-module.exports = Tiger;
+export default Tiger;
