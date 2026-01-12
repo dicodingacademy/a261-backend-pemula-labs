@@ -1,4 +1,4 @@
-const http = require('http');
+import http from 'htttp';
 
 const requestListener = (request, response) => {
   response.setHeader('Content-Type', 'application/json');
