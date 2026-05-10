@@ -6,6 +6,7 @@
   "scripts": {
     "start:prod": "NODE_ENV=production node ./src/server.js",
     "start:dev": "nodemon ./src/server.js",
+    "migrate": "node-pg-migrate",
     "lint": "eslint ./src"
   },
   "keywords": [],
@@ -13,8 +14,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.1.0",
-    "nanoid": "^5.1.5"
+    "joi": "^18.2.1",
+    "nanoid": "^5.1.5",
+    "node-pg-migrate": "^8.0.4",
+    "pg": "^8.20.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.28.0",
